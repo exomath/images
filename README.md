@@ -1,3 +1,4 @@
+<img align="center" src="logos/exomath-sigma-512x512.png" alt="Exomath" height="150" width="150" /></div>
 <h1 align="center">Images</h1>
 <p align="center">Images used by the Exomath suite</p>
 <br>
