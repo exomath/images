@@ -1,0 +1,9 @@
+{
+  "name": "@exomath/images",
+  "version": "0.0.0",
+  "description": "Images used by the Exomath suite",
+  "main": "index.js",
+  "repository": "https://github.com/exomath/images",
+  "author": "Jake McKown <jbmckown@gmail.com>",
+  "license": "MIT"
+}
