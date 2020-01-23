@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logos/exomath-sigma-512x512.png" alt="Exomath" style="margin-left: auto; margin-right: auto;" height="150" width="150">
+  <img src="logos/exomath-sigma-512x512.png" alt="Exomath" height="150" width="150">
 </p>
 <h1 align="center">Images</h1>
 <p align="center">Images used by the Exomath suite</p>
