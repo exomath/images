@@ -1,6 +1,6 @@
 {
   "name": "@exomath/images",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Images used by the Exomath suite",
   "main": "index.js",
   "repository": "https://github.com/exomath/images",
