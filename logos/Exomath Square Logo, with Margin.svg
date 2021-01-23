@@ -12,7 +12,10 @@
    version="1.1"
    id="svg46"
    sodipodi:docname="Exomath Square Logo, with Margin.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\jbmck\source\repos\@exomath\images\logos\Exomath Square Logo, with Margin.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200">
   <metadata
      id="metadata50">
     <rdf:RDF>
@@ -21,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,8 +46,8 @@
      fit-margin-right="100"
      fit-margin-bottom="100"
      inkscape:zoom="0.90028971"
-     inkscape:cx="47.315274"
-     inkscape:cy="237.79595"
+     inkscape:cx="155.05837"
+     inkscape:cy="282.22609"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
