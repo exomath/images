@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="377.95279"
+   height="377.95279"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="Exomath Square Logo.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata50">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1536"
+     inkscape:window-height="779"
+     id="namedview48"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.90028971"
+     inkscape:cx="-27.366671"
+     inkscape:cy="137.79594"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g32" />
+  <desc
+     id="desc2">C:\Users\jbmck\Downloads\Hex Logo.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs22">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path4"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       height="8"
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path7" />
+      <path
+         d="M6 2 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path9" />
+      <path
+         d="M4 0 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path11" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+    <symbol
+       id="GENAXEH">
+      <path
+         d="M -3.779528,1122.5197 H 3.779528"
+         style="fill:none;stroke:#000000"
+         id="path16"
+         inkscape:connector-curvature="0" />
+    </symbol>
+    <symbol
+       id="_ACMFILLEDHALF">
+      <path
+         d="m -3.779528,1122.5197 h 0.755906"
+         style="fill:none;stroke:#000000"
+         id="path19"
+         inkscape:connector-curvature="0" />
+    </symbol>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g32"
+     transform="translate(138.31668,-933.51967)">
+    <g
+       id="g880"
+       transform="translate(50.659715,-0.02364173)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path24"
+         style="fill:#78af2d;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 83.116258,1201.7222 H -46.410953 l 81.590179,-97.2354 -70.857025,-84.4441 H 79.057683 a 47.952756,47.952756 0 0 1 46.430057,35.9645 l -9.81826,-55.6821 47.98886,27.7064 v 188.9764 l -48.03936,27.7355 13.92733,-78.9858 a 47.952756,47.952756 0 0 1 -46.430052,35.9646 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path26"
+         style="fill:#323232;fill-opacity:1;stroke:none"
+         d="M 109.95409,997.02533 H -109.95409 L 0,933.54331 Z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path28"
+         style="fill:#323232;fill-opacity:1;stroke:none"
+         d="M -110.39964,1247.7568 H 110.39964 L 0,1311.4961 Z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path30"
+         style="fill:#323232;fill-opacity:1;stroke:none"
+         d="m -113.38583,999.00665 -50.27251,29.02485 v 188.9764 l 50.10202,28.9264 L -9.891245,1122.3911 -113.41092,999.02113" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Defpoints"
+     id="g34"
+     transform="translate(138.31668,-933.51967)" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Fill"
+     id="g44"
+     transform="translate(138.31668,-933.51967)" />
+</svg>
