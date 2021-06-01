@@ -8,15 +8,3 @@
 ## License
 
 See each directory for LICENSE information, including copyright notices, for each file in that directory. If no license is included in a directory, all files in that directory are Copyright © 2021 Exomath LLC.
-
-## Installation
-
-#### NPM
-```
-$ npm i @exomath/images
-```
-
-#### Yarn
-```
-$ yarn add @exomath/images
-```
