@@ -7,15 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="377.95279"
-   height="377.95279"
+   width="142.31181"
+   height="142.31181"
    version="1.1"
    id="svg46"
-   sodipodi:docname="Exomath Square Logo.svg"
+   sodipodi:docname="exomath-hex-logo-margin.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   inkscape:export-filename="C:\Users\jbmck\source\repos\@exomath\images\logos\Exomath Square Logo.png"
-   inkscape:export-xdpi="199.89798"
-   inkscape:export-ydpi="199.89798">
+   inkscape:export-filename="C:\Users\jbmck\source\repos\@exomath\images\logos\exomath-hex-logo-margin-512.png"
+   inkscape:export-xdpi="345.38"
+   inkscape:export-ydpi="345.38">
   <metadata
      id="metadata50">
     <rdf:RDF>
@@ -24,12 +24,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#323232"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -41,14 +41,14 @@
      inkscape:window-height="779"
      id="namedview48"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:zoom="0.90028971"
-     inkscape:cx="-67.490791"
-     inkscape:cy="202.23889"
-     inkscape:window-x="-8"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20"
+     inkscape:zoom="1.56"
+     inkscape:cx="-58.51319"
+     inkscape:cy="55.931168"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g32" />
@@ -119,36 +119,40 @@
      inkscape:groupmode="layer"
      inkscape:label="0"
      id="g32"
-     transform="translate(138.31668,-933.51967)">
-    <path
-       d="M 133.77597,1201.6986 H 4.248762 l 81.590179,-97.2354 -70.857025,-84.4441 H 129.7174 a 47.952756,47.952756 0 0 1 46.43005,35.9645 l -9.81826,-55.6821 47.98887,27.7064 v 188.9764 l -48.03937,27.7355 13.92733,-78.9858 a 47.952756,47.952756 0 0 1 -46.43005,35.9646 z"
-       style="fill:#78af2d;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path24"
-       inkscape:connector-curvature="0" />
-    <path
-       d="M 160.6138,997.00169 H -59.294375 l 109.95409,-63.48202 z"
-       style="fill:#78af2d;fill-opacity:1;stroke:none;stroke-opacity:1"
-       id="path26"
-       inkscape:connector-curvature="0" />
-    <path
-       d="M -59.739925,1247.7332 H 161.05935 l -110.399635,63.7393 z"
-       style="fill:#78af2d;fill-opacity:1;stroke:none;stroke-opacity:1"
-       id="path28"
-       inkscape:connector-curvature="0" />
-    <path
-       d="m -62.726115,998.98301 -50.272515,29.02489 v 188.9764 l 50.102025,28.9264 L 40.76847,1122.3675 -62.751205,998.99749"
-       style="fill:#78af2d;fill-opacity:1;stroke:none;stroke-opacity:1"
-       id="path30"
-       inkscape:connector-curvature="0" />
+     transform="translate(-2210.6362,-585.82939)">
+    <g
+       id="g877"
+       transform="matrix(0.27069994,0,0,0.27069994,1647.3639,516.44742)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path24-0-7"
+         style="fill:#69a50f;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 2426.7746,598.36731 h -129.5273 l 81.5902,-97.2354 -70.857,-84.4441 h 114.7355 a 47.952756,47.952756 0 0 1 46.43,35.9645 l -9.8182,-55.6821 47.9888,27.7064 v 188.9764 l -48.0393,27.7355 13.9273,-78.9858 a 47.952756,47.952756 0 0 1 -46.43,35.9646 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path26-9-9"
+         style="fill:#323232;fill-opacity:1;stroke:none"
+         d="m 2453.6124,393.67041 h -219.9082 l 109.9541,-63.48203 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path28-0-2"
+         style="fill:#323232;fill-opacity:1;stroke:none"
+         d="m 2233.2587,644.40191 h 220.7992 l -110.3996,63.7393 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path30-5-4"
+         style="fill:#323232;fill-opacity:1;stroke:none"
+         d="M 2230.2725,395.65173 2180,424.67661 v 188.9764 l 50.102,28.9264 103.6651,-123.5432 -103.5197,-123.37001" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
      inkscape:label="Defpoints"
      id="g34"
-     transform="translate(138.31668,-933.51967)" />
+     transform="translate(-2210.6362,-585.82939)" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Fill"
      id="g44"
-     transform="translate(138.31668,-933.51967)" />
+     transform="translate(-2210.6362,-585.82939)" />
 </svg>

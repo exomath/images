@@ -7,15 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="577.95282"
-   height="577.95282"
+   width="102.31181"
+   height="102.31181"
    version="1.1"
    id="svg46"
-   sodipodi:docname="Exomath Square Logo, with Margin.svg"
+   sodipodi:docname="exomath-hex-logo.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   inkscape:export-filename="C:\Users\jbmck\source\repos\@exomath\images\logos\Exomath Square Logo, with Margin.png"
-   inkscape:export-xdpi="200"
-   inkscape:export-ydpi="200">
+   inkscape:export-filename="C:\Users\jbmck\source\repos\@exomath\images\logos\exomath-hex-logo-512.png"
+   inkscape:export-xdpi="480.41373"
+   inkscape:export-ydpi="480.41373">
   <metadata
      id="metadata50">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -35,20 +35,20 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1536"
      inkscape:window-height="779"
      id="namedview48"
      showgrid="false"
-     fit-margin-top="100"
-     fit-margin-left="100"
-     fit-margin-right="100"
-     fit-margin-bottom="100"
-     inkscape:zoom="0.90028971"
-     inkscape:cx="155.05837"
-     inkscape:cy="282.22609"
-     inkscape:window-x="-8"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.56"
+     inkscape:cx="-85.366759"
+     inkscape:cy="35.931167"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g32" />
@@ -119,40 +119,40 @@
      inkscape:groupmode="layer"
      inkscape:label="0"
      id="g32"
-     transform="translate(212.99862,-833.51967)">
+     transform="translate(-2237.4898,-605.8294)">
     <g
-       id="g880"
-       transform="translate(75.97779,-0.02362544)">
+       id="g877"
+       transform="matrix(0.27069994,0,0,0.27069994,1654.2175,516.44743)">
       <path
          inkscape:connector-curvature="0"
-         id="path24"
-         style="fill:#78af2d;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 83.116258,1201.7222 H -46.410953 l 81.590179,-97.2354 -70.857025,-84.4441 H 79.057683 a 47.952756,47.952756 0 0 1 46.430057,35.9645 l -9.81826,-55.6821 47.98886,27.7064 v 188.9764 l -48.03936,27.7355 13.92733,-78.9858 a 47.952756,47.952756 0 0 1 -46.430052,35.9646 z" />
+         id="path24-0-7"
+         style="fill:#69a50f;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 2426.7746,598.36731 h -129.5273 l 81.5902,-97.2354 -70.857,-84.4441 h 114.7355 a 47.952756,47.952756 0 0 1 46.43,35.9645 l -9.8182,-55.6821 47.9888,27.7064 v 188.9764 l -48.0393,27.7355 13.9273,-78.9858 a 47.952756,47.952756 0 0 1 -46.43,35.9646 z" />
       <path
          inkscape:connector-curvature="0"
-         id="path26"
+         id="path26-9-9"
          style="fill:#323232;fill-opacity:1;stroke:none"
-         d="M 109.95409,997.02533 H -109.95409 L 0,933.54331 Z" />
+         d="m 2453.6124,393.67041 h -219.9082 l 109.9541,-63.48203 z" />
       <path
          inkscape:connector-curvature="0"
-         id="path28"
+         id="path28-0-2"
          style="fill:#323232;fill-opacity:1;stroke:none"
-         d="M -110.39964,1247.7568 H 110.39964 L 0,1311.4961 Z" />
+         d="m 2233.2587,644.40191 h 220.7992 l -110.3996,63.7393 z" />
       <path
          inkscape:connector-curvature="0"
-         id="path30"
+         id="path30-5-4"
          style="fill:#323232;fill-opacity:1;stroke:none"
-         d="m -113.38583,999.00665 -50.27251,29.02485 v 188.9764 l 50.10202,28.9264 L -9.891245,1122.3911 -113.41092,999.02113" />
+         d="M 2230.2725,395.65173 2180,424.67661 v 188.9764 l 50.102,28.9264 103.6651,-123.5432 -103.5197,-123.37001" />
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
      inkscape:label="Defpoints"
      id="g34"
-     transform="translate(212.99862,-833.51967)" />
+     transform="translate(-2237.4898,-605.8294)" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Fill"
      id="g44"
-     transform="translate(212.99862,-833.51967)" />
+     transform="translate(-2237.4898,-605.8294)" />
 </svg>
