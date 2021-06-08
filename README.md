@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="logos/Exomath Logo, with Margin.svg" alt="Exomath" height="200">
+  <img height="100" src="./logos/exomath-logo.svg" alt="Exomath"/>
 </p>
+
 <h1 align="center">Images</h1>
 <p align="center">Images used by the Exomath suite</p>
 <br>
