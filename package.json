@@ -1,8 +1,22 @@
 {
   "name": "@exomath/images",
   "version": "0.2.0",
-  "description": "Images used by the Exomath suite",
+  "description": "Exomath images",
   "repository": "https://github.com/exomath/images",
   "author": "Jake McKown <jbmckown@gmail.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "type": "module",
+  "files": [
+    "icons",
+    "logos"
+  ],
+  "engines": {
+    "node": ">=14",
+    "npm": "use-yarn",
+    "yarn": ">=1.22"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {}
 }

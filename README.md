@@ -3,8 +3,8 @@
 </p>
 
 <h1 align="center">Images</h1>
-<p align="center">Images used by the Exomath suite</p>
-<br>
+<p align="center">Exomath images</p>
+<br/>
 
 ## License
 
