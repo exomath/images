@@ -26,8 +26,8 @@ const icons = {};
 readdirSync(resolve(__dirname, 'icons'), { withFileTypes: true })
   .filter(item => item.isDirectory())
 
-  .forEach(dir => {
-    const style = dir.name;
+  .forEach(directory => {
+    const style = directory.name;
     const names = {};
 
     readdirSync(resolve(__dirname, 'icons', style), { withFileTypes: true })
@@ -35,8 +35,10 @@ readdirSync(resolve(__dirname, 'icons'), { withFileTypes: true })
 
       .forEach(file => {
         const name = basename(file.name, '.svg');
-        const svg = readFileSync(resolve(__dirname, 'icons', style, file.name), 'utf8').trim();
-
+        const svg = readFileSync(resolve(__dirname, 'icons', style, file.name), 'utf8')
+          .trim()
+          .replace(/(?:\r?\n|\r)\s*/gm, '');
+        
         names[name] = svg;
       });
 
