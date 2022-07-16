@@ -23,7 +23,7 @@ let contents = GENERATED_FILE_HEADER;
 
 const icons = {};
 
-readdirSync(resolve(__dirname, 'icons'), { withFileTypes: true })
+readdirSync(resolve(__dirname, 'app-icons'), { withFileTypes: true })
   .filter(item => item.isDirectory())
 
   .forEach(directory => {
