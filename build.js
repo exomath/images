@@ -15,7 +15,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const ROOT_DIR = 'app-icons';
+const ROOT_DIR = 'icons/app';
 const GENERATED_FILE_HEADER = '/* THIS IS A GENERATED FILE; DO NOT MODIFY MANUALLY */\n';
 
 let contents = GENERATED_FILE_HEADER;
