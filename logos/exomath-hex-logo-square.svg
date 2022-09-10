@@ -7,11 +7,11 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="88.604584"
+   width="102.31181"
    height="102.31181"
    version="1.1"
    id="svg46"
-   sodipodi:docname="exomath-hex-logo.svg"
+   sodipodi:docname="exomath-hex-logo-square.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    inkscape:export-filename="C:\Users\jbmck\source\repos\@exomath\images\logos\exomath-hex-logo-512.png"
    inkscape:export-xdpi="480.41373"
@@ -46,8 +46,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="4.4123463"
-     inkscape:cx="39.067347"
-     inkscape:cy="46.63928"
+     inkscape:cx="46.110958"
+     inkscape:cy="49.293212"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -119,7 +119,7 @@
      inkscape:groupmode="layer"
      inkscape:label="0"
      id="g32"
-     transform="translate(-2244.3434,-605.8294)">
+     transform="translate(-2237.4898,-605.8294)">
     <g
        id="g877"
        transform="matrix(0.27069994,0,0,0.27069994,1654.2175,516.44743)">
@@ -149,10 +149,10 @@
      inkscape:groupmode="layer"
      inkscape:label="Defpoints"
      id="g34"
-     transform="translate(-2244.3434,-605.8294)" />
+     transform="translate(-2237.4898,-605.8294)" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Fill"
      id="g44"
-     transform="translate(-2244.3434,-605.8294)" />
+     transform="translate(-2237.4898,-605.8294)" />
 </svg>
