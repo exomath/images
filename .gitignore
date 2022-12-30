@@ -4,6 +4,9 @@
 /pnpm-lock.yaml
 /yarn.lock
 
+/icons/app/index.js
+/logos/index.js
+
 .DS_Store
 *.bat
 *.log
