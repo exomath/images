@@ -5,18 +5,25 @@
   "repository": "https://github.com/exomath/images",
   "author": "Jake McKown <jbmckown@gmail.com>",
   "license": "UNLICENSED",
-  "type": "module",
   "files": [
-    "icons",
-    "logos"
+    "icons/app/index.js",
+    "logos/index.js"
   ],
-  "engines": {
-    "node": ">=16.15",
-    "npm": "use-pnpm",
-    "pnpm": ">=7.20"
+  "type": "module",
+  "exports": {
+    "./icons": {
+      "import": "./icons/app/index.js"
+    },
+    "./logos": {
+      "import": "./logos/index.js"
+    }
   },
   "scripts": {
     "build": "node build.js"
   },
-  "dependencies": {}
+  "engines": {
+    "node": ">=16.15",
+    "npm": "use-pnpm",
+    "pnpm": ">=7.20"
+  }
 }
