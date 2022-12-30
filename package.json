@@ -11,9 +11,9 @@
     "logos"
   ],
   "engines": {
-    "node": ">=14",
-    "npm": "use-yarn",
-    "yarn": ">=1.22"
+    "node": ">=16.15",
+    "npm": "use-pnpm",
+    "pnpm": ">=7.20"
   },
   "scripts": {
     "build": "node build.js"
