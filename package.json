@@ -6,24 +6,26 @@
   "author": "Jake McKown <jbmckown@gmail.com>",
   "license": "UNLICENSED",
   "files": [
-    "icons/app/index.js",
-    "logos/index.js"
+    "lib"
   ],
   "type": "module",
   "exports": {
-    "./icons": {
-      "import": "./icons/app/index.js"
-    },
-    "./logos": {
-      "import": "./logos/index.js"
+    ".": {
+      "import": "./lib/index.js",
+      "types": "./lib/index.d.ts"
     }
   },
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "node build.js"
+    "clean": "rimraf lib",
+    "build": "pnpm clean && node build.js"
   },
   "engines": {
     "node": ">=16.15",
     "npm": "use-pnpm",
     "pnpm": ">=7.20"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
   }
 }
