@@ -8,7 +8,7 @@ const TARGET_DIR = resolve(__dirname, 'lib');
 const GENERATED_FILE_HEADER = '/* THIS IS A GENERATED FILE; DO NOT MODIFY MANUALLY */\n\n';
 const NEWLINE_PATTERN = /(?:\r?\n|\r)\s*/gm;
 const TYPE_DECLARATIONS = `export const icons: Record<string, Record<string, string>>;
-export const logos: Record<string, Record<string, string>>;
+export const logos: Record<string, string>;
 `;
 
 /* Icons */
