@@ -26,6 +26,6 @@
     "pnpm": ">=7.20"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "^5.0.1"
   }
 }
