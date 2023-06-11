@@ -1,24 +1,25 @@
-import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'fs';
-import { basename, dirname, extname, resolve } from 'path';
-import { fileURLToPath } from 'url';
+import {mkdirSync, readdirSync, readFileSync, writeFileSync} from 'fs';
+import {basename, dirname, extname, resolve} from 'path';
+import {fileURLToPath} from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const TARGET_DIR = resolve(__dirname, 'lib');
 const GENERATED_FILE_HEADER = '/* THIS IS A GENERATED FILE; DO NOT MODIFY MANUALLY */\n\n';
 const NEWLINE_PATTERN = /(?:\r?\n|\r)\s*/gm;
-const TYPE_DECLARATIONS = `export const icons: Record<string, Record<string, string | undefined> | undefined>;
+const TYPE_DECLARATIONS = `export const staticIcons: Record<string, Record<string, string | undefined> | undefined>;
+export const animatedIcons: Record<string, Record<string, string | undefined> | undefined>;
 export const logos: Record<string, string | undefined>;
 `;
 
-/* Icons */
+/* Static icons */
 
-let sourcePath = resolve(__dirname, 'icons', 'app');
+let sourcePath = resolve(__dirname, 'icons', 'app', 'static');
 let contents = GENERATED_FILE_HEADER;
 
-const icons = {};
+const staticIcons = {};
 
-readdirSync(sourcePath, { withFileTypes: true })
+readdirSync(sourcePath, {withFileTypes: true})
   .filter(item => item.isDirectory())
 
   .forEach(directory => {
@@ -26,7 +27,7 @@ readdirSync(sourcePath, { withFileTypes: true })
     const directoryPath = resolve(sourcePath, style);
     const names = {};
 
-    readdirSync(directoryPath, { withFileTypes: true })
+    readdirSync(directoryPath, {withFileTypes: true})
       .filter(item => item.isFile() && extname(item.name) === '.svg')
 
       .forEach(file => {
@@ -40,10 +41,43 @@ readdirSync(sourcePath, { withFileTypes: true })
         names[name] = svg;
       });
 
-    icons[style] = names;
+    staticIcons[style] = names;
   });
 
-contents += 'export const icons = ' + JSON.stringify(icons, null, 2) + ';\n\n';
+contents += 'export const staticIcons = ' + JSON.stringify(staticIcons, null, 2) + ';\n\n';
+
+/* Animated icons */
+
+sourcePath = resolve(__dirname, 'icons', 'app', 'animated');
+
+const animatedIcons = {};
+
+readdirSync(sourcePath, {withFileTypes: true})
+  .filter(item => item.isDirectory())
+
+  .forEach(directory => {
+    const style = directory.name;
+    const directoryPath = resolve(sourcePath, style);
+    const names = {};
+
+    readdirSync(directoryPath, {withFileTypes: true})
+      .filter(item => item.isFile() && extname(item.name) === '.json')
+
+      .forEach(file => {
+        const name = basename(file.name, '.json');
+        const filePath = resolve(directoryPath, file.name);
+
+        const json = readFileSync(filePath, 'utf8')
+          .trim()
+          .replace(NEWLINE_PATTERN, '');
+        
+        names[name] = json;
+      });
+
+    animatedIcons[style] = names;
+  });
+
+contents += 'export const animatedIcons = ' + JSON.stringify(animatedIcons, null, 2) + ';\n\n';
 
 /* Logos */
 
