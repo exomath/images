@@ -7,10 +7,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const TARGET_DIR = resolve(__dirname, 'lib');
 const GENERATED_FILE_HEADER = '/* THIS IS A GENERATED FILE; DO NOT MODIFY MANUALLY */\n\n';
 const NEWLINE_PATTERN = /(?:\r?\n|\r)\s*/gm;
-const TYPE_DECLARATIONS = `export const staticIcons: Record<string, Record<string, string | undefined> | undefined>;
-export const animatedIcons: Record<string, Record<string, string | undefined> | undefined>;
-export const logos: Record<string, string | undefined>;
-`;
 
 /* Static icons */
 
@@ -102,5 +98,4 @@ readdirSync(sourcePath, { withFileTypes: true })
 contents += 'export const logos = ' + JSON.stringify(logos, null, 2) + ';\n';
 
 mkdirSync(TARGET_DIR);
-writeFileSync(resolve(TARGET_DIR, 'index.js'), contents, 'utf8');
-writeFileSync(resolve(TARGET_DIR, 'index.d.ts'), TYPE_DECLARATIONS, 'utf8');
+writeFileSync(resolve(TARGET_DIR, 'index.ts'), contents, 'utf8');

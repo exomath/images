@@ -18,7 +18,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "clean": "rimraf lib",
-    "build": "pnpm clean && node build.js"
+    "build": "pnpm clean && node build.js && tsc"
   },
   "engines": {
     "node": ">=16.15",
@@ -26,6 +26,7 @@
     "pnpm": ">=7.20"
   },
   "devDependencies": {
-    "rimraf": "^5.0.1"
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.3"
   }
 }
