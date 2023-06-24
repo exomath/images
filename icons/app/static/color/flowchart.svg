@@ -1,31 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 172" fill="#000000" style="width: 100%; height: 100%;">
-  <defs>
-    <linearGradient x1="86" y1="53.60308" x2="86" y2="19.70833" gradientUnits="userSpaceOnUse" id="color-1_2jHmblEslKYm_gr1">
-      <stop offset="0" stop-color="#42a3f2"/>
-      <stop offset="1" stop-color="#42a3f2"/>
-    </linearGradient>
-    <linearGradient x1="86" y1="150.35308" x2="86" y2="116.45833" gradientUnits="userSpaceOnUse" id="color-2_2jHmblEslKYm_gr2">
-      <stop offset="0" stop-color="#1abc9c"/>
-      <stop offset="1" stop-color="#1abc9c"/>
-    </linearGradient>
-    <linearGradient x1="143.33333" y1="150.35308" x2="143.33333" y2="116.45833" gradientUnits="userSpaceOnUse" id="color-3_2jHmblEslKYm_gr3">
-      <stop offset="0" stop-color="#1abc9c"/>
-      <stop offset="1" stop-color="#1abc9c"/>
-    </linearGradient>
-    <linearGradient x1="28.66667" y1="150.35308" x2="28.66667" y2="116.45833" gradientUnits="userSpaceOnUse" id="color-4_2jHmblEslKYm_gr4">
-      <stop offset="0" stop-color="#1abc9c"/>
-      <stop offset="1" stop-color="#1abc9c"/>
-    </linearGradient>
-  </defs>
-  <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-    <path d="M0,172v-172h172v172z" fill="none"/>
-    <g>
-      <path d="M111.08333,17.91667h-50.16667c-1.978,0 -3.58333,1.60533 -3.58333,3.58333v28.66667c0,1.978 1.60533,3.58333 3.58333,3.58333h50.16667c1.978,0 3.58333,-1.60533 3.58333,-3.58333v-28.66667c0,-1.978 -1.60533,-3.58333 -3.58333,-3.58333z" fill="url(#color-1_2jHmblEslKYm_gr1)"/>
-      <path d="M103.91667,114.66667h-35.83333c-1.978,0 -3.58333,1.60533 -3.58333,3.58333v28.66667c0,1.978 1.60533,3.58333 3.58333,3.58333h35.83333c1.978,0 3.58333,-1.60533 3.58333,-3.58333v-28.66667c0,-1.978 -1.60533,-3.58333 -3.58333,-3.58333z" fill="url(#color-2_2jHmblEslKYm_gr2)"/>
-      <path d="M161.25,114.66667h-35.83333c-1.978,0 -3.58333,1.60533 -3.58333,3.58333v28.66667c0,1.978 1.60533,3.58333 3.58333,3.58333h35.83333c1.978,0 3.58333,-1.60533 3.58333,-3.58333v-28.66667c0,-1.978 -1.60533,-3.58333 -3.58333,-3.58333z" fill="url(#color-3_2jHmblEslKYm_gr3)"/>
-      <path d="M46.58333,114.66667h-35.83333c-1.978,0 -3.58333,1.60533 -3.58333,3.58333v28.66667c0,1.978 1.60533,3.58333 3.58333,3.58333h35.83333c1.978,0 3.58333,-1.60533 3.58333,-3.58333v-28.66667c0,-1.978 -1.60533,-3.58333 -3.58333,-3.58333z" fill="url(#color-4_2jHmblEslKYm_gr4)"/>
-      <rect x="23" y="15" transform="scale(3.58333,3.58333)" width="2" height="17" fill="#64717c"></rect>
-      <path d="M146.91667,114.66667h-7.16667v-28.66667c0,-1.97442 -1.60892,-3.58333 -3.58333,-3.58333h-100.33333c-1.97442,0 -3.58333,1.60892 -3.58333,3.58333v28.66667h-7.16667v-28.66667c0,-5.92683 4.82317,-10.75 10.75,-10.75h100.33333c5.92683,0 10.75,4.82317 10.75,10.75z" fill="#64717c"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 172" style="width: 100%; height: 100%;">
+  <g transform="translate(0 1.7917)">
+    <path d="m111.08 17.917h-50.167c-1.978 0-3.5833 1.6053-3.5833 3.5833v28.667c0 1.978 1.6053 3.5833 3.5833 3.5833h50.167c1.978 0 3.5833-1.6053 3.5833-3.5833v-28.667c0-1.978-1.6053-3.5833-3.5833-3.5833z" fill="#42a3f2" style="mix-blend-mode:normal"/>
+    <g fill="#1abc9c">
+      <path d="m103.92 114.67h-35.833c-1.978 0-3.5833 1.6053-3.5833 3.5833v28.667c0 1.978 1.6053 3.5833 3.5833 3.5833h35.833c1.978 0 3.5833-1.6053 3.5833-3.5833v-28.667c0-1.978-1.6053-3.5833-3.5833-3.5833z" style="mix-blend-mode:normal"/>
+      <path d="m161.25 114.67h-35.833c-1.978 0-3.5833 1.6053-3.5833 3.5833v28.667c0 1.978 1.6053 3.5833 3.5833 3.5833h35.833c1.978 0 3.5833-1.6053 3.5833-3.5833v-28.667c0-1.978-1.6053-3.5833-3.5833-3.5833z" style="mix-blend-mode:normal"/>
+      <path d="m46.583 114.67h-35.833c-1.978 0-3.5833 1.6053-3.5833 3.5833v28.667c0 1.978 1.6053 3.5833 3.5833 3.5833h35.833c1.978 0 3.5833-1.6053 3.5833-3.5833v-28.667c0-1.978-1.6053-3.5833-3.5833-3.5833z" style="mix-blend-mode:normal"/>
     </g>
+    <rect x="82.417" y="53.75" width="7.1667" height="60.917" fill="#64717c" style="mix-blend-mode:normal"/>
+    <path d="m146.92 114.67h-7.1667v-28.667c0-1.9744-1.6089-3.5833-3.5833-3.5833h-100.33c-1.9744 0-3.5833 1.6089-3.5833 3.5833v28.667h-7.1667v-28.667c0-5.9268 4.8232-10.75 10.75-10.75h100.33c5.9268 0 10.75 4.8232 10.75 10.75z" fill="#64717c" style="mix-blend-mode:normal"/>
   </g>
 </svg>
