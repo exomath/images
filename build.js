@@ -62,10 +62,7 @@ readdirSync(sourcePath, {withFileTypes: true})
       .forEach(file => {
         const name = basename(file.name, '.json');
         const filePath = resolve(directoryPath, file.name);
-
-        const json = readFileSync(filePath, 'utf8')
-          .trim()
-          .replace(NEWLINE_PATTERN, '');
+        const json = JSON.stringify(JSON.parse(readFileSync(filePath, 'utf8')));
         
         names[name] = json;
       });
