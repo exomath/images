@@ -40,7 +40,8 @@ readdirSync(sourcePath, {withFileTypes: true})
     staticIcons[style] = names;
   });
 
-contents += 'export const staticIcons = ' + JSON.stringify(staticIcons, null, 2) + ';\n\n';
+contents += 'export const staticIcons: Record<string, Record<string, string>> = '
+  + JSON.stringify(staticIcons, null, 2) + ';\n\n';
 
 /* Animated icons */
 
@@ -70,7 +71,8 @@ readdirSync(sourcePath, {withFileTypes: true})
     animatedIcons[style] = names;
   });
 
-contents += 'export const animatedIcons = ' + JSON.stringify(animatedIcons, null, 2) + ';\n\n';
+contents += 'export const animatedIcons: Record<string, Record<string, string>> = '
+  + JSON.stringify(animatedIcons, null, 2) + ';\n\n';
 
 /* Logos */
 
@@ -92,7 +94,8 @@ readdirSync(sourcePath, { withFileTypes: true })
     logos[name] = svg;
   });
 
-contents += 'export const logos = ' + JSON.stringify(logos, null, 2) + ';\n';
+contents += 'export const logos: Record<string, string> = '
+  + JSON.stringify(logos, null, 2) + ';\n';
 
 mkdirSync(TARGET_DIR);
 writeFileSync(resolve(TARGET_DIR, 'index.ts'), contents, 'utf8');
