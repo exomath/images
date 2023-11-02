@@ -5,7 +5,7 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "lib": ["esnext", "dom"],
-    "module": "esnext",
+    "module": "nodenext",
     "moduleResolution": "nodenext",
     "noImplicitAny": true,
     "outDir": "lib",
