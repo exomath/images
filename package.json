@@ -1,0 +1,33 @@
+{
+  "name": "@exomath/images",
+  "version": "0.42.0",
+  "description": "Exomath images",
+  "repository": "https://github.com/exomath/images",
+  "author": "Jake McKown <jbmckown@gmail.com>",
+  "license": "UNLICENSED",
+  "files": [
+    "lib"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "types": "lib/index.d.ts",
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "pnpm clean && node build.js && tsc"
+  },
+  "engines": {
+    "node": ">=18.16",
+    "npm": "use-pnpm",
+    "pnpm": ">=8.12",
+    "yarn": "use-pnpm"
+  }
+}

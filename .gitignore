@@ -1,0 +1,11 @@
+/lib/
+/node_modules/
+
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
+
+.DS_Store
+*.bat
+*.log
+*.notes.md
