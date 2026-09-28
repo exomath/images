@@ -1,11 +1,11 @@
+/.claude/
 /lib/
 /node_modules/
 
+/line-counts.csv
 /package-lock.json
-/pnpm-lock.yaml
 /yarn.lock
 
 .DS_Store
 *.bat
 *.log
-*.notes.md
