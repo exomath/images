@@ -22,7 +22,8 @@
   },
   "scripts": {
     "cleanup": "rimraf lib",
-    "build": "pnpm cleanup && node build.js && tsc"
+    "build": "pnpm cleanup && node build.js && tsc",
+    "auto-publish": "pnpm build && auto-deploy --publish"
   },
   "engines": {
     "node": ">=26.4",
