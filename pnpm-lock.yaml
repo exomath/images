@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@exomath/common':
-        specifier: ^0.57.0
-        version: 0.57.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))(typescript@7.0.2)
+        specifier: ^0.58.0
+        version: 0.58.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))(typescript@7.0.2)
       rimraf:
         specifier: ^6.1.3
         version: 6.1.3
@@ -34,8 +34,8 @@ packages:
     resolution: {integrity: sha512-rVcxLmwSkEL3aWS3vAgsTRrQHoYE1b0XcgDtKHDJ92XOkyUpcbS/g0tUJKhvCtlEhYzgKBWsgDd+Z/aPhd166w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@exomath/common@0.57.0':
-    resolution: {integrity: sha512-m1hzyfvxTr6o6aauBV7RMvmaLc3HJRLMep/7X0JqbsWK9UEvwS72iIX5g4PlhLQ8wZCOawZuAcYBxYul6r8l8Q==}
+  '@exomath/common@0.58.0':
+    resolution: {integrity: sha512-50RH9aeQI3u5Gm5KDjP1M7NIENWn4WKpCFTY+K2BlGk5BvQCbspxbLXC9aT/rOesEM+NIs2Y6vv4Rmw9TD7zQg==}
     engines: {node: '>=26.4', npm: use-pnpm, pnpm: '>=11', yarn: use-pnpm}
     hasBin: true
 
@@ -316,8 +316,8 @@ packages:
     resolution: {integrity: sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==}
     engines: {node: '>= 0.4'}
 
-  caniuse-lite@1.0.30001822:
-    resolution: {integrity: sha512-Y3fvWQWzc69dlCyr07tuNrEhotv+db5FpMSPD3slZnkPKwRNOKwFBz2dP966XUmWMXLTOt+YShkFoQoom3U7hg==}
+  caniuse-lite@1.0.30001823:
+    resolution: {integrity: sha512-TQ5s/djDjNk1axreUW+4rULH+BmdCMLiJkhaXnO5wqivG7tITkSUj4ItIdzqdZHKaXcHAV8dhH3JxOM7/7bwqw==}
 
   change-case@5.4.4:
     resolution: {integrity: sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w==}
@@ -382,8 +382,8 @@ packages:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
     engines: {node: '>= 0.4'}
 
-  electron-to-chromium@1.5.477:
-    resolution: {integrity: sha512-PN++F4zWZoVDGWinxMnSCpVqKhqFOJfLXxdU8bYJKudAEsHL/XKVITOKWVbfMt1r276Mi9RDLU9VHx9uKJ4RMQ==}
+  electron-to-chromium@1.5.478:
+    resolution: {integrity: sha512-pftG+ma5Lm8O6/p45bhYT6StBN5ziQymaRzmCZwFl8DwWHKPPD93FdOmP1aqftcepolQYvrcyTLa17kE8Yf+jg==}
 
   entities@8.1.0:
     resolution: {integrity: sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA==}
@@ -1013,7 +1013,7 @@ snapshots:
       mdn-data: 2.37.2
       source-map-js: 1.2.2
 
-  '@exomath/common@0.57.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))(typescript@7.0.2)':
+  '@exomath/common@0.58.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))(typescript@7.0.2)':
     dependencies:
       '@stylistic/eslint-plugin': 5.10.0
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))
@@ -1275,8 +1275,8 @@ snapshots:
   browserslist@4.29.5:
     dependencies:
       baseline-browser-mapping: 2.11.35
-      caniuse-lite: 1.0.30001822
-      electron-to-chromium: 1.5.477
+      caniuse-lite: 1.0.30001823
+      electron-to-chromium: 1.5.478
       node-releases: 2.0.63
       update-browserslist-db: 1.3.4(browserslist@4.29.5)
 
@@ -1299,7 +1299,7 @@ snapshots:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
 
-  caniuse-lite@1.0.30001822: {}
+  caniuse-lite@1.0.30001823: {}
 
   change-case@5.4.4: {}
 
@@ -1361,7 +1361,7 @@ snapshots:
       es-errors: 1.3.0
       gopd: 1.2.0
 
-  electron-to-chromium@1.5.477: {}
+  electron-to-chromium@1.5.478: {}
 
   entities@8.1.0: {}
 
