@@ -5,10 +5,10 @@
   "repository": "https://github.com/exomath/images",
   "author": "Jake McKown <jbmckown@gmail.com>",
   "license": "UNLICENSED",
+  "type": "module",
   "files": [
     "lib"
   ],
-  "type": "module",
   "exports": {
     ".": {
       "import": "./lib/index.js",
