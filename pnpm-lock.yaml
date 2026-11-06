@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@exomath/common':
-        specifier: ^0.58.0
-        version: 0.58.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))(typescript@7.0.2)
+        specifier: ^0.59.0
+        version: 0.59.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))(typescript@7.0.2)
       rimraf:
         specifier: ^6.1.3
         version: 6.1.3
@@ -34,8 +34,8 @@ packages:
     resolution: {integrity: sha512-rVcxLmwSkEL3aWS3vAgsTRrQHoYE1b0XcgDtKHDJ92XOkyUpcbS/g0tUJKhvCtlEhYzgKBWsgDd+Z/aPhd166w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@exomath/common@0.58.0':
-    resolution: {integrity: sha512-50RH9aeQI3u5Gm5KDjP1M7NIENWn4WKpCFTY+K2BlGk5BvQCbspxbLXC9aT/rOesEM+NIs2Y6vv4Rmw9TD7zQg==}
+  '@exomath/common@0.59.0':
+    resolution: {integrity: sha512-UDoazrRFs/zdfTFGO4GtxZ1kRPeV/kr8kKjP2l0IU6m9N8VIZlBui3rteapYoKf6eVmXAbctBLxph39OzZTHWw==}
     engines: {node: '>=26.4', npm: use-pnpm, pnpm: '>=11', yarn: use-pnpm}
     hasBin: true
 
@@ -1013,7 +1013,7 @@ snapshots:
       mdn-data: 2.37.2
       source-map-js: 1.2.2
 
-  '@exomath/common@0.58.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))(typescript@7.0.2)':
+  '@exomath/common@0.59.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))(typescript@7.0.2)':
     dependencies:
       '@stylistic/eslint-plugin': 5.10.0
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.71.0(typescript@7.0.2))

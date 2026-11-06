@@ -16,7 +16,7 @@
     }
   },
   "devDependencies": {
-    "@exomath/common": "^0.58.0",
+    "@exomath/common": "^0.59.0",
     "rimraf": "^6.1.3",
     "typescript": "^7.0.2"
   },
